@@ -1,0 +1,116 @@
+#navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+nav a h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav #navbarNavAltMarkup a{
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+    letter-spacing: 0.5px;
+    font-family:'Poppins', sans-serif;
+    color:#a0a0a0;
+}
+nav #navbarNavAltMarkup a::after{
+    content: "";
+    position:absolute;
+    background-color:rgb(203, 24, 60);
+    height: 3px;
+    width: 0%;
+    bottom: 8px;
+    left: 8px;
+    transition: 500ms;
+}
+nav #navbarNavAltMarkup a:hover{
+    color:white;
+}
+nav #navbarNavAltMarkup a:hover::after{
+    width: 100%;
+}
+nav button{
+    transform: scale(1.0);
+    transition: all 500ms;
+}
+nav button:hover{
+    transform: scale(1.05);
+}
+#about{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#projects a{
+    transform: scale(1.0);
+    transition: all 500ms;
+}
+#projects a:hover{
+    transform: scale(1.05);
+}
+#education .education {
+    transform: scale(1.0);
+    transition: all 500ms;
+}
+#education .education:hover  {
+    transform: scale(1.03);
+}
+
+.social_links {
+    transform-origin: 50% 0%;
+    transform: scale(0);
+    transition: all 400ms;
+}
+.social_links:hover{
+    transform: scaleY(1);
+    background-color:crimson;
+    text-shadow: 0 0 0.50em  crimson;
+}
+#arrowDown{
+    position: relative;
+    transform: translateX(200px);
+}
+#link{
+    position: absolute;
+}
+#html {
+    width: 93%;
+}
+
+#css {
+    width: 90%;
+}
+#javascript {
+    width: 70%;
+}
+#php {
+    width: 72%;
+}
+#sass {
+    width: 65%;
+}
+#figma {
+    width:80%;
+}
+#adobe {
+    width: 75%;
+}
+#ui_design {
+    width: 90%;
+}
+#ux_design {
+    width: 75%;
+}
+#video {
+    width: 60%;
+}
+
+
